@@ -183,35 +183,6 @@ class Invoice extends CI_Controller {
 
 
         $this->helper->json('Success', 'Email sent successfully.');
-
-        /*$api_key = "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";
-
-        require APPPATH."/third_party/sendgrid-php/sendgrid-php.php";
-
-        $email = new \SendGrid\Mail\Mail();
-        $email->setFrom("jankovic.nikola1993@gmail.com", "Invoicepls.com");
-        $email->setSubject($post['email_subject']);
-        $email->addTo($post['email_to']);
-        $email->addContent("text/plain", $post['email_message']);
-
-        $file_encoded = base64_encode(file_get_contents($pdf));
-        $email->addAttachment(
-            $file_encoded,
-            "application/text",
-            $post['invoice_name'].'.pdf',
-            "attachment"
-        );
-
-        $sendgrid = new \SendGrid('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');
-        try {
-            $response = $sendgrid->send($email);
-            $this->helper->json('Success', 'Email sent successfully.');
-            print $response->statusCode() . "\n";
-            print_r($response->headers());
-            print $response->body() . "\n";
-        } catch (Exception $e) {
-            echo 'Caught exception: ' . $e->getMessage() . "\n";
-        }*/
     }
 
     public function hex_to_rgb($hex) {
