@@ -1,0 +1,148 @@
+.table {
+    width: 96%;
+    margin-bottom: 0.2rem;
+    color: #212529;
+    margin-left: 16px;
+}
+thead{
+    background-color: #c1c1c1;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #dee2e6;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #4e5256 !important;
+}
+
+#navbar_image{
+    height: 35px;
+    position: relative;
+    bottom: 5px;
+}
+#navbar_color{
+    background: rgb(72,73,77);
+    background: linear-gradient(0deg, rgba(72,73,77,1) 0%, rgba(52,58,64,1) 100%);
+}
+#invoice_name{
+    font-size: 30px;
+}
+.square{
+    height: 110px;
+    width: 190px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 42px;
+    float: right;
+    cursor: pointer;
+}
+b{
+    font-weight: 500;
+}
+.items_table>tbody>tr>td,
+.items_table>tbody>tr>th {
+    border-top: none;
+}
+#picture{
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: 15px;
+    float: right;
+}
+button.btn.dropdown-toggle.btn-light {
+    background-color: #e2e6ea;
+}
+.remove_row{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.remove_logo{
+    width: 18px;
+    position:absolute;
+    top: 5px;
+    right: 18px;
+    font-size: 25px;
+}
+.remove_logo_settings{
+    font-size: 25px;
+    position: relative;
+    left: 67px;
+    bottom: 147px;
+}
+body{
+    background-image: url("/assets/Grey-Background.jpg");
+    background-size: cover;
+}
+.template_img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    cursor: pointer;
+}
+.dropdown-menu.show {
+    left: -31px !important;
+    right: -1px;
+}
+#logo_left_position{
+    position: relative;
+    right: 5px;
+}
+
+/*invoices page css*/
+.delete_invoice{
+    font-size: 21px;
+    color: red;
+    cursor: pointer;
+}
+.delete_invoice:hover{
+    color: #c70000;
+}
+.invoices_table{
+    background-color: #f8f9fa;
+}
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    position: relative;
+    left: 16px;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    position: relative;
+    right: 28px;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    position: relative;
+    left: 16px;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+    position: relative;
+    right: 28px;
+}
+
+/* Css for templates modal */
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel-indicators .active {
+    background-color: #444;
+}
+.carousel-indicators{
+    bottom: -20px !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #444 !important;
+}
+
+
