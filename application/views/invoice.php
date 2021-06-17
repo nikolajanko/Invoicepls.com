@@ -480,6 +480,7 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
     </div>
 </div>
 
+
 <!-- Modal for send invoice-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
